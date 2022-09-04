@@ -39,8 +39,7 @@ const Footer = ({
           )}>
  
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
-            <FooterNav />
-            <div className="footer-copyright">Made by <a href="https://twitter.com/anasahmedCs">Anas Ahmed</a> . All right reserved</div>
+            <FooterNav /> 
           </div>
         </div>
       </div>

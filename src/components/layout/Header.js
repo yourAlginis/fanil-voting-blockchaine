@@ -141,21 +141,15 @@ const Header = ({
                     classNames(
                       'list-reset text-xs',
                       navPosition && `header-nav-${navPosition}`
-                    )}>
-                        <li class="nav-item"> 
-                      <a class="nav-link" href='#services'>Services</a>
-                    </li>
-
-                    <li class="nav-item"> 
-                      <a  class="nav-link " href='#team'>Team</a>
-                    </li>
+                    )}> 
+ 
 
                     <li class="nav-item"> 
                       <a class="nav-link " href='https://web3-docs.azurewebsites.net/'>Document</a>
                     </li>
 
                     <li class="nav-item"> 
-                      <a class="nav-link " href='#'>Copyright</a>
+                      <a class="nav-link " href='https://alginis-copyright.vercel.app/'>Copyright</a>
                     </li>
 
                     <li class="nav-item">

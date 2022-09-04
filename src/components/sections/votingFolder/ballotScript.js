@@ -530,23 +530,23 @@ const abi =[
       </div>
    
        {/* Second Form */}
-     <div class="mb-3 reveal-from-bottom" data-reveal-delay="400">
+     <div class="mb-5 reveal-from-bottom"  >
        <label for="exampleInputEmail1" class="form-label">Rigester Voters</label>
  				 <input  
 				  onChange={handleInputAdress}
 				  type="text"
           class="form-control" id="exampleInputEmail1" 
 				 /> 
-       <button class="button  button-primary m-3 reveal-from-bottom" data-reveal-delay="400" id='btn_id_voting' onClick={addVoter} >Add Voter</button>
+       <button class="button  button-primary m-3 reveal-from-bottom"   id='btn_id_voting' onClick={addVoter} >Add Voter</button>
        <div class="w-100 mt-4"></div>
-       <button class="button  button-primary m-1 reveal-from-bottom" data-reveal-delay="400" id='btn_id_voting' onClick={startVote} >Start Vote</button>
-       <button class="button  button-primary m-1 reveal-from-bottom" data-reveal-delay="400" id='btn_id_voting' onClick={endVote} >End Vote</button>   
+       <button class="button  button-primary m-1 mb-5"   id='btn_id_voting' onClick={startVote} >Start Vote</button>
+       <button class="button  button-primary m-1 mb-5 "  id='btn_id_voting' onClick={endVote} >End Vote</button>   
      </div> 
     
       </div>
 
         {/* Second Group for Voters*/}       
-      <div class="tab-pane fade reveal-from-bottom" data-reveal-delay="400" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+      <div class="tab-pane   reveal-from-bottom"  id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
        <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Your Opinion</label>
         <select class="form-control" id="exampleInputEmail1"  onChange={inputeVote}>
